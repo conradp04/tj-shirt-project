@@ -50,7 +50,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + " Server issues.</strong> Please email me directly to <a href='jjezek@traderjoes.com?Subject=Message_Me from myprogrammingblog.com;>jjezek@traderjoes.com</a> ? Sorry for the inconvenience!");
+                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + " Server issues.</strong> Please email me directly at jjezek@traderjoes.com.  Sorry for the inconvenience!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
