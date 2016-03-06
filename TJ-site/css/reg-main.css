@@ -1,0 +1,98 @@
+html,h1, h2,h3,h4,p, ul,ol,li{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    font-family: 'fredericka the great';
+}
+body{
+    
+    
+    margin:0px auto ;
+    clear:both;
+
+}
+/*
+.header{
+    position:relative;
+        
+}
+
+.headerLogo{
+    text-align: center;
+}
+*/
+.logo{
+    align: left;
+}
+
+.logoTwo{
+    
+    
+}    
+
+
+.postContainer{
+     width: 1200px;
+    margin:0px auto;    
+    
+}
+h1{ 
+    
+    font-family: 'fredericka the great';
+    color:#dc3d24;
+    padding: 1px 0px;
+    text-align: center;
+    font-size: 45px;
+    
+    
+}
+h2{
+    font-family: 'fredericka the great';
+    color:#fff;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    font-size: 45px;
+    margin: 10px 150px 4px 150px
+}
+
+h3{
+    font-family: 'fredericka the great';
+    color:#dc3d24;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size:20px;
+    
+}
+
+li{
+    font-size: 28px;
+}
+
+div ul li{
+    font-size: 14px;
+     
+}
+
+p{
+    font-size:14px;
+        
+}
+em{
+    color:#dc3d24;
+}
+
+
+#sample {border:1px dotted #666;text-align:center;}
+#sample h2 {text-align:center;}
+#sample p {text-align:center;padding:.4em 3em 0em;}
+#my-form #align {box-sizing:border-box;width:96%;text-align:center;margin:0 2%;padding:2em;}
+#my-form .data-entry {padding:.5em 8%;}
+#my-form textarea {padding:.1em 8%;}
+#my-form p {margin:.1em 0;text-align:center;}
+#my-form select {margin-bottom:1em;}
+#my-form select {margin-bottom:1em;font-size:95%;padding:.1em .5em;}
+#my-form .button {width:80px;height:30px;font-size:110%;margin:.4em;}
