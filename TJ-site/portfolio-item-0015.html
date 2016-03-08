@@ -174,13 +174,15 @@
         <div>
            <!-- ADD TO CART button code. -->
 <form action="https://www.e-junkie.com/ecom/fgb.php?c=cart&cl=1&ejc=2" target="ej_ejc" method="POST">
+<!-- paypal email(remove if not using PayPal) -->
+<input type="hidden" name="business" value=""/>
 
-
-
+<!-- google merchant id (remove if not using Google Checkout) -->
+<input type="hidden" name="merchant_id" value=""/>
 
 
 <!-- site url -->
-<input type="hidden" name="site_url" value="http://yoursite.com"/>
+<input type="hidden" name="site_url" value="http://conradp04.github.io/tj-shirt-project/TJ-site.html"/>
 
 <!-- contact email (where we can notify of the updates) -->
 <input type="hidden" name="contact_email" value="clim@traderjoes.com"/>
