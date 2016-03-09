@@ -32,8 +32,7 @@ $(function() {
                     phone: phone,
                     email: email,
                     message: message
-                    shirtSize: shirtSize,
-                    product3 = product3,
+                  
                 },
                 cache: false,
                 success: function() {
