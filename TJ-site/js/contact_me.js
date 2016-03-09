@@ -16,6 +16,8 @@ $(function() {
             var name = $("input#name").val();
             var phone = $("input#phone").val();
             var email = $("input#email").val();
+            var shirtSize = $("input#shirtSize").val();
+            var product3 = $("input#product3").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -30,6 +32,8 @@ $(function() {
                     phone: phone,
                     email: email,
                     message: message
+                    shirtSize: shirtSize,
+                    product3 = product3,
                 },
                 cache: false,
                 success: function() {
