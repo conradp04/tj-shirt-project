@@ -195,7 +195,7 @@
                 <form action="//formspree.io/conradlimphoto@gmail.com"
       method="POST">
                         <input type="hidden" name="_subject" value="New Hawaiian Shirt Order" />
-                        <input type="hidden" name="_next" value="http://test-contact.html" />
+                        <input type="hidden" name="_next" value="//test-contact.html" />
              
                              <div>
                              <h3>Full Name:</h3>
@@ -296,17 +296,14 @@
                         <div class="control-group form-group">
                         <div class="controls">
                             <h3>Specifcy WCO or ECO:</h3>
-                            <input type="text" name="CompanyName" >
+                            <select name="CompanyName">
+                          <option name="WCO">West Coast Office</option>
+                          <option nane="ECO">East Coast Office</option>
+                          
+                        </select>
                         </div>
                     </div>
-                    
-                    
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <h3>Optional Message:</h3>
-                            <textarea rows="8" cols="70" name="message" maxlength="999" style="resize:none"></textarea>
-                        </div>
-                    </div>
+                   
                    
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 
