@@ -85,6 +85,12 @@ em{
     color:#dc3d24;
 }
 
+.orderform{
+    text-align: center;
+    font-size:40px;
+    font-family: "fredericka the great";
+    color:#dc3d24;
+}
 
 #sample {border:1px dotted #666;text-align:center;}
 #sample h2 {text-align:center;}
