@@ -15,10 +15,10 @@ $(function() {
 
 function populateSelect(){
     shirtstyle=$('#shirtstyle').val();
-    $('#item').html('');
+    $('.item').html('');
     
        eval(shirtstyle).forEach(function(t) { 
-            $('#item').append('<option>'+t+'</option>');
+            $('.item').append('<option>'+t+'</option>');
         });
     };
     
