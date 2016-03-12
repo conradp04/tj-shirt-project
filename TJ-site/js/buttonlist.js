@@ -1,5 +1,5 @@
-Pullovers=new Array("XSmall","Small","Medium","Large","Large Tall","XLarge","2XL","3XL");
-Buttons=new Array("XSmall","Small","Medium","Large","Large Tall","XLarge","2XL","3XL");
+Pullover=new Array("XSmall","Small","Medium","Large","Large Tall","XLarge","2XL","3XL");
+Button=new Array("XSmall","Small","Medium","Large","Large Tall","XLarge","2XL","3XL");
 
 
 populateSelect();
@@ -15,10 +15,10 @@ $(function() {
 
 function populateSelect(){
     shirtstyle=$('#shirtstyle').val();
-    $('.item').html('');
+    $('#item').html('');
     
        eval(shirtstyle).forEach(function(t) { 
-            $('.item').append('<option>'+t+'</option>');
+            $('#item').append('<option>'+t+'</option>');
         });
     };
     
