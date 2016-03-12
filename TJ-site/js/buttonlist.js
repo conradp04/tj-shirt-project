@@ -6,7 +6,7 @@ populateSelect();
 
 $(function() {
 
-      $('#shirtstyle').change(function(){
+      $('#style').change(function(){
         populateSelect();
     });
     
@@ -14,7 +14,7 @@ $(function() {
 
 
 function populateSelect(){
-    shirtstyle=$('#shirtstyle').val();
+    shirtstyle=$('#style').val();
     $('#item').html('');
     
        eval(shirtstyle).forEach(function(t) { 
