@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Trader Joe's Hawaiian Shirt </title>
+    <title>Hibiscus Shadow - Trader Joe's Hawaiian Shirt </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet"
@@ -26,8 +26,22 @@
         <script language="javascript" type="text/javascript">
     
     <!--
-        function popitup(url){
+        function mensorder(url){
             newwindow=window.open('contact2.html','order_form','height=900,width=600,scrollbars=yes');
+            if (window.focus) (newwindow.focus())
+                return false;
+                
+    }
+    
+    //-->
+    
+    
+    </script>
+        <script language="javascript" type="text/javascript">
+    
+    <!--
+        function womensorder(url){
+            newwindow=window.open('contact.html','order_form','height=900,width=600,scrollbars=yes');
             if (window.focus) (newwindow.focus())
                 return false;
                 
@@ -67,18 +81,30 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    
-                    <li>
-                        <a href="contact2.html" onclick="return popitup('contact2.html')">Order Form</a>
-                    </li>
-                  
-                        
-                </ul>
-            </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="http://www.traderjoes.com/our-story" target="_blank">About</a>
+                        </li>
+                       <!--  <li>
+                            <a href="contact2.html" onclick="return mensorder('contact2.html')">Order </a>
+                        </li> -->
+                      
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Order Forms <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="contact2.html" onclick="return mensorder('contact2.html')">MEN'S Form</a>
+                                </li>
+                                <li>
+                                    <a href="contact2.html" onclick="return womensorder('contact.html')">WOMEN'S  Form</a>
+                                </li>
+                              
+                               
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
@@ -90,13 +116,13 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Mini Tahitian
-                    <small>Style #905</small>
+                <h1 class="page-header">Hibiscus Shadow
+                    <small>Style #1740</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
-                    <li class="active">Mini Tahitian</li>
+                    <li class="active">Hibiscus Shadow</li>
                 </ol>
             </div>
         </div>
@@ -120,51 +146,23 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="img-responsive" src="photos/productpage/MiniTahitianWhite.jpg" title="">
+                            <img class="img-responsive" src="photos/smallshirts/Hibiscus%20Shadow.jpg" title="Sage">
                         </div>
                     
                         <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-1.jpg" title="Monao Navy">
+                            <img class="img-responsive" src="photos/productpage/hibiscus_shadow-1.jpg" title="Grey">
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-2.jpg" title="Monao Slate">
+                            <img class="img-responsive" src="photos/productpage/hibiscus_shadow-2.jpg" title="Blue">
                         </div>
                           <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-3.jpg" title="Monao Marine">
+                            <img class="img-responsive" src="photos/productpage/hibiscus_shadow-4.jpg" title="Khaki">
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-4.jpg" title="Monao Navy">
+                            <img class="img-responsive" src="photos/productpage/hibiscus_shadow-5.jpg" title="Sage">
                         </div>
-                        <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-5.jpg" title="Monao Slate">
-                        </div>
-                          <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-6.jpg" title="Monao Marine">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-7.jpg" title="Monao Navy">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-8.jpg" title="Monao Slate">
-                        </div>
-                          <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-9.jpg" title="Monao Marine">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-10.jpg" title="Monao Navy">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-11.jpg" title="Monao Slate">
-                        </div>
-                          <div class="item">
-                            <img class="img-responsive" src="photos/productpage/mini-tahitian-12.jpg" title="Monao Marine">
-                        </div>
-                    
-                    
-                    
-                    
-                    
-                    
+                     
+                        
                     
                     
                     </div>
@@ -192,18 +190,12 @@
                 </ul>
                 <h3>Colors Available</h3>
                 <ul>
-                    <li>Black/Sand</li>
-                    <li>Black/Red</li>
-                    <li>Navy/White</li>
-                    <li>Green/White</li>
-                    <li>Red/White</li>
-                    <li>Navy/Red</li>
-                    <li>Royal/Gold</li>
-                    <li>Khaki/Navy</li>
-                    <li>Cardinal/Gold</li>
-                    <li>Blue/White</li>
-                    <li>Peri/Aqua</li>
-                    <li>Pink/Turq</li>
+                    <li>Grey</li>
+                    <li>Blue</li>
+                    <li>Khaki</li>
+                    <li>Sage</li>
+                  
+                   
                 </ul>
                 </div>
 

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Trader Joe's Hawaiian Shirt </title>
+    <title>Mini Tahitian - Trader Joe's Hawaiian Shirt </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet"
@@ -23,11 +23,25 @@
      <link href="css/reg-main.css" rel="stylesheet">
      <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
     
+            <script language="javascript" type="text/javascript">
+    
+    <!--
+        function mensorder(url){
+            newwindow=window.open('contact2.html','order_form','height=900,width=600,scrollbars=yes');
+            if (window.focus) (newwindow.focus())
+                return false;
+                
+    }
+    
+    //-->
+    
+    
+    </script>
         <script language="javascript" type="text/javascript">
     
     <!--
-        function popitup(url){
-            newwindow=window.open('contact2.html','order_form','height=900,width=600,scrollbars=yes');
+        function womensorder(url){
+            newwindow=window.open('contact.html','order_form','height=900,width=600,scrollbars=yes');
             if (window.focus) (newwindow.focus())
                 return false;
                 
@@ -66,19 +80,31 @@
                 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    
-                    <li>
-                        <a href="contact2.html" onclick="return popitup('contact2.html')">Order Form</a>
-                    </li>
-                  
-                        
-                </ul>
-            </div>
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="http://www.traderjoes.com/our-story" target="_blank">About</a>
+                        </li>
+                       <!--  <li>
+                            <a href="contact2.html" onclick="return mensorder('contact2.html')">Order </a>
+                        </li> -->
+                      
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Order Forms <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="contact2.html" onclick="return mensorder('contact2.html')">MEN'S Form</a>
+                                </li>
+                                <li>
+                                    <a href="contact2.html" onclick="return womensorder('contact.html')">WOMEN'S  Form</a>
+                                </li>
+                              
+                               
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
@@ -181,7 +207,7 @@
 
             <div class="col-md-4">
                 
-                <h3>Men's Classic Cotton Shirt</h3>
+                <h3>Men/Women's Classic Cotton Shirt</h3>
                 <ul>
                     <li>Match Pocket</li>
                     <li>Coconut Buttons</li>
