@@ -1,4 +1,4 @@
-Pullover=new Array("XXSmall","XSmall","Small","Merdium","Large","XLarge","2XL");
+Pullover=new Array("XXSmall","XSmall","Small","Medium","Large","XLarge","2XL");
 Button=new Array("XSmall","Small","Medium","Large","XLarge","2XLarge","3XLarge");
 
 
