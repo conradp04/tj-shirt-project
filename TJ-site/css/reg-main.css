@@ -92,6 +92,11 @@ em{
     color:#dc3d24;
 }
 
+.thumbtitle{
+	text-align:center;
+	margin-top:10px;
+	font-weight:bold;
+}
 #sample {border:1px dotted #666;text-align:center;}
 #sample h2 {text-align:center;}
 #sample p {text-align:center;padding:.4em 3em 0em;}
