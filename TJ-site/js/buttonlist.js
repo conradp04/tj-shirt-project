@@ -23,3 +23,11 @@ function populateSelect(){
     };
     
 
+
+
+var limit = 7;
+$('input.single-checkbox').on('change', function(evt) {
+   if($("input:checkbox[class=single-checkbox]:checked").length > limit) {
+       this.checked = false;
+   }
+});
