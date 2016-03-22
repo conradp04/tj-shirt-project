@@ -1,5 +1,5 @@
-Pullover=new Array("XSmall","Small","Medium","Large","Large Tall","2XLTall","3XLTall","XLarge","2XL","3XL","4XL","5XL");
-Button=new Array("XSmall","Small","Medium","Large","Large Tall","2XLTall","3XLTall","XLarge","2XL","3XL","4XL","5XL");
+Pullover=new Array("XSmall","Small","Medium","Large","Large Tall","XLarge","XLargeTall","2XL","2XLTall","3XL","3XLTall","4XL","5XL");
+Button=new Array("XSmall","Small","Medium","Large","Large Tall","XLarge","XLargeTall","2XL","2XLTall","3XL","3XLTall","4XL","5XL");
 
 
 
