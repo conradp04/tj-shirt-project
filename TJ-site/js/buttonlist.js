@@ -1,5 +1,6 @@
-Pullover=new Array("XSmall","Small","Medium","Large","Large Tall","XLarge","2XL","3XL");
-Button=new Array("XSmall","Small","Medium","Large","Large Tall","XLarge","2XL","3XL");
+Pullover=new Array("XSmall","Small","Medium","Large","Large Tall","2XLTall","3XLTall","XLarge","2XL","3XL","4XL","5XL");
+Button=new Array("XSmall","Small","Medium","Large","Large Tall","2XLTall","3XLTall","XLarge","2XL","3XL","4XL","5XL");
+
 
 
 populateSelect();
