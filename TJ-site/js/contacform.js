@@ -1,3 +1,3 @@
   function toggleDiv(divId) {
-           $("#"+divId).toggle();
+           $("#"+myContent).toggle();
         }
