@@ -1,9 +1,9 @@
-  function toggleDiv(divId) {
-           $("#"+'myContent').toggle();
-        };
+//  function toggleDiv(divId) {
+  //         $("#"+'myContent').toggle();
+    //    };
         
         
-function asd(a)
+//function asd(a)
 {
     if(a==1)
     document.getElementById("asd").style.display="none";
