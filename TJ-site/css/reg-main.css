@@ -111,9 +111,11 @@ visibility:visible;
 }
 
 .sutext{
-    font-family: "roman times";
+    font-family: Arial;
     text-align: center;
-    color:#000;
+    color:#A72222;
+    font-weight:bold;
+    font-size:20px;
 }
 
 
