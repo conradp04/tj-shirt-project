@@ -103,7 +103,6 @@ position:relative;
 bottom:30px;
 left:0px;
 visibility:hidden;
-color:#DC3D24;
 background-color:rgba(255,255,255,0.8);
 }
 
@@ -114,6 +113,7 @@ visibility:visible;
 .sutext{
     font-family: Arial;
     text-align: center;
+    color:#DC3D24;
 }
 
 
