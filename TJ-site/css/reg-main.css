@@ -97,6 +97,27 @@ em{
 	margin-top:10px;
 	font-weight:bold;
 }
+
+#suwrapper .sutext {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+color:#DC3D24;
+background-color:rgba(255,255,255,0.8);
+}
+
+#suwrapper:hover .sutext {
+visibility:visible;
+}
+
+.sutext{
+    font-family: Arial;
+    text-align: center;
+}
+
+
+
 #sample {border:1px dotted #666;text-align:center;}
 #sample h2 {text-align:center;}
 #sample p {text-align:center;padding:.4em 3em 0em;}
