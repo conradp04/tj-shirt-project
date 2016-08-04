@@ -225,7 +225,7 @@ margin-left:-1px;
  }
  .subtitle
  {
-    margin-left: 425px;
+    margin-left: 420px;
     margin-top:25px;
     font-size: 20px;
     
@@ -237,7 +237,7 @@ margin-left:-1px;
 }
 .subBtn
 {
-    margin-left:850px;
+    margin-left:820px;
     margin-bottom:30px;
 }
 .container
@@ -256,4 +256,8 @@ img
 .jumbo
 {
     font-size:50px;
+}
+.checkbox label, .radio label
+{
+    font-weight:bold;
 }
