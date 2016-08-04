@@ -1,0 +1,259 @@
+
+.sectionOne, .sectionTwo, .sectionThree, .sectionFour{
+                padding: 10px 10px 10px 20px;
+                margin:10px 175px;
+                border: 1px solid gray;
+            }
+header{
+    color:red;
+    text-align:center;
+    font-family: "Fredericka the great";
+    size:150px;
+    tex
+}
+p{
+	font-family:"fredericka the great";
+}
+
+ul{
+	font-family:"fredericka the great";
+	color: #00ff00;
+	letter-spacing: .75px;
+	}
+
+.navbar-nav{
+	color: red;
+}
+
+.shoppingCart{
+    margin-bottom:50px;
+    
+}
+
+.modal-content .shoppingCart{
+    margin-left:15px;
+    
+}
+
+.sectionOne, .sectionTwo, .sectionThree, .sectionFour{
+                padding: 10px 10px 10px 20px;
+                margin:10px 175px;
+                border: 1px solid gray;
+            }
+ul li{
+            color:#000;
+            font-family: "Times new roman",'century gothic';
+        }
+
+.form{
+            margin-top:15px;
+            width: 0px auto;
+            height:200px;
+        
+            display:block;
+           
+        }
+#inputs{
+       text-align: center;
+}
+
+legend{
+
+    margin-top:25px;
+}
+
+.cartControls{
+
+    text-align: left;
+    margin-top:15px;
+    margin-left:50px;
+
+}
+
+.clearCart{
+    margin-left:10px;
+
+}
+
+.sectionDetails{
+    margin-left:1px;
+}
+
+
+fieldset {
+            text-align: center;
+        }
+#email{
+            margin-left: 60px;
+        }
+    
+.jumboTitle, a{
+        font-family:"fredericka the great";
+        color: #990000   !important;        
+        text-align: center;
+        text-decoration: none;
+        
+    }    
+    
+.overlay{
+        width:100%;
+        background-color:black;
+        height: 100%;
+        position:fixed;
+        margin-top:-220px;
+        opacity:2%;
+        display:none;
+        
+    }
+    
+.mainThumbs{
+        width:150px;
+        height:150px;
+        position: relative;
+        background-color:#eee;
+        margin-left:10px;
+        margin-top:20px;
+    }
+
+.pageThumbs{
+        width:560px;
+        height:400px;
+        position: relative;
+        background-color:#eee;
+        margin-top:20px;
+        padding-right:;
+        border-radius:25px;
+        
+    }
+.cartIcon{
+        text-align:right;
+        padding-right:4px;
+        margin-right:55px;
+        size:50px;
+       /* margin-top:50px;*/
+        opacity:.5;
+        
+       
+    }
+
+.cart-count{
+    font-size:1.3em;
+    margin-right:47px;
+    margin-top:-27px;
+    text-align: right;
+  }
+
+#cart-count{
+    
+    color:#fff;
+    font-weight: bold;
+    margin-left:1px;
+}
+
+
+.itemtitle, ul, li, .itemPrice, .wahini{
+    margin-left:45px;
+}
+
+
+input#name{
+
+    margin-left:60px;
+}
+
+.colorDrop{
+    margin-bottom:15px;
+
+}
+.cartControls{
+
+    margin-left:50px;
+}
+
+
+.modal{
+    opacity: .7;
+    background-color: #696969;
+    margin-top:10%;
+}
+.modal-form{
+
+    margin-left:15px;
+    font-family:"open sans";
+}
+
+.badge-notify{
+    background-color:#CE1616;
+
+}
+
+.controlButtons{
+  margin-left:50px;
+}
+
+#itemsInCart{
+  border:1px dotted black;
+  width:300px;
+  height:100px;
+  visibility: hidden;
+}
+li 
+{
+    list-style-type: none;
+}
+
+.thumbDetails{
+
+z-index: 5;
+margin-left:-1px;
+
+}
+.itemDescription {
+    margin-left: -120px;
+    /* display: inline; */
+}
+.namelbl
+{
+    text-align: center;
+    margin-top:25px;
+}
+.custom-controls-stacked
+{
+    text-align:center;
+    margin-top:-34px;
+    margin-left:150px;
+ }
+ .subtitle
+ {
+    margin-left: 450px;
+    margin-top:25px;
+    font-size: 20px;
+    
+ }
+
+.form-group
+{
+    margin-left:200px;
+}
+.subBtn
+{
+    margin-left:850px;
+    margin-bottom:30px;
+}
+.container
+{
+    border:1px dashed #F5310A;
+    margin-bottom:15px;
+}
+img
+{
+    margin-left: 760px;
+    margin-top: -100px;
+    width: 75px;
+    height: 75px;
+    opacity: .7;
+}
+.jumbo
+{
+    font-size:50px;
+}
