@@ -284,3 +284,6 @@ select#sweatColor {
 {
     text-align:center;
 }
+input#radioStacked2 {
+    margin-left: 108px;
+}
