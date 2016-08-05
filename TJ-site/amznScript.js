@@ -23,10 +23,12 @@ function populateSelect(){
     
        eval(shirtstyle).forEach(function(t) { 
             $('#sweatColor').append('<option>'+t+'</option>');
-        });
-    };
+           // $('#sweatColor').attr("value:",t);
+           // $("#sweatColor").attr("asp:ListItem")
+           // $('#sweatColor').append('<asp:ListItem>'+t+'</asp:ListItem>');
+        })
 
-
+};
 
 
 $(document).ready(function(){
