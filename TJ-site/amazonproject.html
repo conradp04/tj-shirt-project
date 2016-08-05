@@ -32,10 +32,8 @@
             </div>
       <form id="form1" runat="server">
                 <div class="namelbl">
-                    <label>FIRST NAME</label>&nbsp<asp:TextBox ID="txtFName" runat="server"></asp:TextBox>
-                    <br>
-                    <br>
-                    <label>LAST NAME</label>&nbsp<asp:TextBox ID="txtLName" runat="server"></asp:TextBox>
+                    <label>FIRST NAME</label>&nbsp<input type="text" class="" name=""><br><br>
+                    <label>LAST NAME</label>&nbsp<input type="text" class="" name="">
                 </div>
        
       
@@ -61,15 +59,22 @@
                 </div>
                 <div class="form-group">
                     <label for="CrewSweats">Crew Sweatshirts </label>
-                     <asp:DropDownList ID="sweatSize" runat="server" class="form-control">
-                     <asp:ListItem Text="Choose_size" Value="0"></asp:ListItem>
+                      <select class="form-control" id="sweatSize">
+                    <!-- <asp:DropDownList ID="sweatSize" runat="server" class="form-control"> -->
+                    <!-- <asp:ListItem Text="Choose_size" Value="0"></asp:ListItem>
                      <asp:ListItem Text="X_SMALL" Value="X_SMALL"></asp:ListItem>
                      <asp:ListItem Text="SMALL" Value="SMALL"></asp:ListItem>
                      <asp:ListItem Text="LARGE" Value="LARGE"></asp:ListItem>
                      <asp:ListItem Text="X_LARGE" Value="X_LARGE"></asp:ListItem>
                      <asp:ListItem Text="XX_LARGE" Value="XX_SMALL"></asp:ListItem>
-                    
-                        </asp:DropDownList>
+                        </asp:DropDownList>  -->
+                         <option>Choose_size</option>
+                        <option>X_SMALL</option>
+                        <option>SMALL</option>
+                        <option>LARGE</option>
+                        <option>X_LARGE</option>
+                        <option>XX_LARGE</option>
+                    </select>
                 </div>        
              
                     <div class="form-group">
@@ -102,7 +107,7 @@
                     </fieldset>
             </div>
                     <div class="col-sm-12 subBtn">
-                            <asp:button runat="server" type="submit" class="btn btn-danger" text="SUBMIT" value="Submit"/>
+                            <button type="submit" class="btn btn-danger">Submit</button>
                     </div>
          </form>   
          </div>
