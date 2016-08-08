@@ -89,7 +89,7 @@ fieldset {
     
 .jumboTitle, a{
         font-family:"fredericka the great";
-        color: #990000   !important;        
+        color: #E84413 !important;        
         text-align: center;
         text-decoration: none;
         
@@ -215,7 +215,8 @@ margin-left:-1px;
 .namelbl
 {
     text-align: center;
-    margin-top:25px;
+    margin-top:50px;
+    margin-bottom:20px;
 }
 .custom-controls-stacked
 {
@@ -251,7 +252,7 @@ input#radioStacked1_0
     padding:2px 0 0 0;
     text-align:center;
 }
-.container
+.containment
 {
     border:1px dashed #F5310A;
     margin-bottom:15px;
@@ -283,7 +284,47 @@ select#sweatColor {
 .cutterSection
 {
     text-align:center;
+    margin-bottom:25px;
 }
-input#radioStacked2 {
-    margin-left: 136px;
+.storeNum{
+    margin:45px auto 0 auto;
+    text-align: center;
+    display: inline;
+}
+#storeNum{
+width:200px;
+margin:0 auto;
+}
+.storeID
+{
+    max-width: 100%;
+    display: block;
+    margin-top: 50px;
+}
+
+.headline
+{
+    font-family:"Fredericka the great";
+    text-align: center;
+    margin:0px auto -45px auto;
+
+}
+h3
+{
+    font-size:20px;
+    color:#566063;
+    font-weight:bold;
+    letter-spacing: 3px;
+
+}
+#shirtSize
+{
+    
+    margin-bottom: 30px;
+    width: 50%;
+    margin-left: 175px
+}
+.crewShirts
+{
+    margin-left:175px;
 }
