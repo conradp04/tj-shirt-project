@@ -1,28 +1,42 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AmazonProjectA.aspx.cs" Inherits="AmazonProject.AmazonProjectA" %>
-
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+  <html>
+  <head>
     <title>Trader Joe's NEW CREW KIT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="robots" content="noindex, nofollow">
 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js" type="text/javascript"></script> 
 
-    <!-- Bootstrap -->
+    <script type="text/javascript" src="scripts/javascript.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" type="text/css" media="all" />
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+  
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<link href="tj_style_git.css" rel="stylesheet" type="text/css"> 
+ <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+
+
+   
+             <!--[if lt IE 9]>
+           <script src="/js/html5shiv.js" type="text/javascript"></script>
+           <script src="/js/respond.min.js" type="text/javascript"></script>
+          <![endif]-->
 
 
 
-    <!-- CSS theme -->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-    <link href="tj_style.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
 </head>
-<body>
+  <body>
 
-    <div class="jumbotron">
-        <h1 class="jumbotitle" style="text-align: center; font-family: fredericka the great; font-size: 80px;color=#E84413">TRADER JOE'S INSIDE</h1>
-        <div class="headline container">
+  
+<div class="jumbotron">
+  <h1 class="jumbotitle" style="text-align:center;font-family:fredericka the great;size:40px;">TRADER JOE'S INSIDE</h1>
+   <div class="headline container">
             <div class="row">
             <div class="col-sm-4">
                 <h3>CHINO HILLS - DRY</h3>
@@ -35,112 +49,94 @@
             </div>
         </div>
      </div>
+  </div>
+ 
+<div class="container containment">
+   <div class="row">
+  <div class="col-sm-12">
+
+  <form>
+        <H1 class="jumbo" style="text-align:center;font-family:fredericka the great;size:30px;color:red">NEW CREW KIT</H1>
+         <div class="hibiscus"> <img src="http://cliparts.co/cliparts/8cG/bqB/8cGbqBjxi.png" height="150" width="170"></div>
+        
+        <div class="namelbl">
+        <label>NEW CREW FIRST NAME</label>&nbsp<input type="text" class="" name=""><br><br>
+        <label>NEW CREW LAST NAME</label>&nbsp<input type="text" class="" name="">
+        </div>
+ 
+ <div class="cutterSection">
+ 
+      <label class="subtitle">Safety Cutter</label>
+ 
+    <div class="custom-controls-stacked">
+       <label class="custom-control custom-radio">
+            <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input">
+            <span class="custom-control-indicator"></span>
+            <span class="custom-control-description">Left Handed</span>
+       </label><br>
+       &nbsp&nbsp<label class="custom-control custom-radio">
+            <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input">
+            <span class="custom-control-indicator"></span>
+            <span class="custom-control-description">Right Handed</span>
+         </label>
     </div>
+   
+</div>
 
-    <div class="container containment">
-        <div class="row">
-        <div class="col-sm-12">
 
-            <h1 class="jumbo" style="text-align: center; font-family: fredericka the great; size: 30px; color: red">NEW CREW KIT </h1>
-          
-  
-  
-                 
-            <div class="hibiscus">
-           <!--     <img src="http://cliparts.co/cliparts/8cG/bqB/8cGbqBjxi.png" height="150" width="170" /> -->
-            </div>
-      <form id="form1" runat="server">
-      
-                <div class="namelbl">
-                    <label>NEW CREW FIRST NAME</label>&nbsp<asp:TextBox ID="txtFName" runat="server"></asp:TextBox>
-                    <br>
-                    <br>
-                    <label>NEW CREW LAST NAME</label>&nbsp<asp:TextBox ID="txtLName" runat="server"></asp:TextBox>
-                </div>
-       
-      
-        <div class="cutterSection">
-            <label class="subtitle">Safety Cutter</label>
-            <asp:RadioButtonList ID="radioStacked1" class="custom-controls-stacked" runat="server" RepeatDirection="Vertical" RepeatLayout="Table">
-                <asp:ListItem Text="LEFT HANDED" Value="LEFT HANDED"></asp:ListItem>
-                <asp:ListItem Text="RIGHT HANDED" Value="RIGHT HANDED"></asp:ListItem>
-            </asp:RadioButtonList>
-          </div>
-      
-            <div class="col-sm-9 col-sm-offset-2">
-                <div class="form-group">
-                    <label class="crewShirts" form="CrewShirts">Crew T-Shirt </label>                 
-                    <select class="form-control" id="shirtSize">
-                        <option>Choose Size</option>
-                        <option>X SMALL</option>
-                        <option>SMALL</option>
-                        <option>LARGE</option>
-                        <option>XL</option>
-                        <option>2XL</option>
-                        <option>3XL</option>
-                        <option>4XL</option>
-                    </select>
-                </div>
-               <%-- <div class="form-group">
-                    <label for="CrewSweats">Crew Sweatshirts </label>
-                     <asp:DropDownList ID="sweatSize" runat="server" class="form-control">
-                     <asp:ListItem Text="Choose_size" Value="0"></asp:ListItem>
-                     <asp:ListItem Text="X_SMALL" Value="X_SMALL"></asp:ListItem>
-                     <asp:ListItem Text="SMALL" Value="SMALL"></asp:ListItem>
-                     <asp:ListItem Text="LARGE" Value="LARGE"></asp:ListItem>
-                     <asp:ListItem Text="X_LARGE" Value="X_LARGE"></asp:ListItem>
-                     <asp:ListItem Text="XX_LARGE" Value="XX_LARGE"></asp:ListItem>
-                     <asp:ListItem Text="XXX_LARGE" Value="XXX_LARGE"></asp:ListItem>
+ 
+ <div class="row">
+ <div class="col-sm-9 col-sm-offset-2">
 
-                    
-                        </asp:DropDownList>
-                </div>        
-             
-                    <div class="form-group">
-                        <label for="sweatColor" class="colorChoice">Available Sweatshirt Colors:</label>
-                        <select name="Sweatshirt_Color" class="form-control" id="sweatColor"> 
-                           <%-- <asp:DropDownList ID="sweatColor" runat="server" class="form-control">--%>
-                                
-                                <%-- </asp:DropDownList>--%>
-                     
-               
-             </div>
-            
-             <div class="col-sm-12">
-                    <fieldset class="form-group">
-                        <legend>ITEMS YOU WILL ALSO RECEIVE </legend>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="optionsRadios" id="NHPACKS" value="option1" checked disabled="disabled">
-                                NEW HIRE PACKS
-                            </label>
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="optionsRadios" id="HOLSTERS" value="option2" disabled="disabled" checked>
-                                PLASTIC HOLSTERS
-                            </label>
-                        </div>
-                        <div class="namelbl">
-                    <label>Ordered By:</label>&nbsp<asp:TextBox ID="TextBox1" runat="server" placeholder=" Enter Full Name..."></asp:TextBox>
+  <div class="form-group">
+    <label class="crewShirts" for="exampleSelect1" class="dropDwnTxt">Crew T-Shirt </label>
+    <select class="form-control exampleSelect1" id="shirtSize">
+      <option>Choose a size</option>
+      <option>X-SMALL</option>
+      <option>SMALL</option>
+      <option>LARGE</option>
+      <option>XL</option>
+      <option>2XL</option>
+      <option>3XL</option>
+      <option>4XL</option>
+    </select>
+  </div>
 
-                    </fieldset>
-            </div>
-                    <div class="col-sm-12 subBtn">
-                            <asp:button runat="server" type="submit" class="btn btn-danger" text="SUBMIT" value="Submit"/>
-                    </div>
-         </form>   
-         </div>
-       </div> 
-       </div>
+<!--   <div class="form-group">
+    <label for="exampleTextarea">Example textarea</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </div> -->
+
+  <fieldset class="form-group">
+    <legend>ITEMS YOU WILL ALSO RECEIVE </legend>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="optionsRadios" id="NHPACKS" value="option1" checked disabled="disable">
+        WELCOME PACK KITS
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="optionsRadios" id="HOLSTERS" value="option2" disabled="disabled" checked>
+        LEATHER HOLSTERS
+      </label>
+    </div>
+ 
+  </fieldset>
+<div class=subBtn>
+  <button type="submit" class="btn btn-danger">Submit</button>
+</div>
+  </div>
+  </div>
+
+</form>
+
+ </div>
+    </div>
     
+   </div>
+  </div>
 
+  </body>
+  </html>
 
-
-    
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js" type="text/javascript"></script>
-        <script src="amznScript.js"></script>
-        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</body>
-</html>
