@@ -40,7 +40,7 @@
                 <h3>STORE NUMBER - #112</h3>
             </div>
             <div class="col-sm-4 col-sm-offset-0 cDate">
-              <span id="cDate">August 08,2016</span>
+              <span id="cDate"></span>
             </div>
         </div>
      </div>
@@ -156,22 +156,15 @@ var yyyy = today.getFullYear();
 
 if (dd<10){
   dd='0'+dd
-}
+  }
 
-
-
-today = monthNames[mm]+' '+dd+','+yyyy;
-document.getElementbyID("cDate").innerHtml = '<h3>'+today+'</h3>';
+var today = monthNames[mm]+' '+dd+','+yyyy;
 console.log(today);
-
+document.getElementById("cDate").innerHTML = today;
 
 }
-
+currentDate();
 });
-
-
-
-
 </script>
  
 
