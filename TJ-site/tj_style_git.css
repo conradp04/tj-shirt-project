@@ -309,6 +309,7 @@ margin:0 auto;
     margin:0px auto -45px auto;
 
 }
+
 h3
 {
     font-size:20px;
@@ -331,4 +332,17 @@ h3
 #radioStacked2
 {
     margin-left:128px;
+}
+
+
+#cDate
+{
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing: 3px;
+    color:#566063;
+}
+.cDate
+{
+    margin-top:16px;
 }
