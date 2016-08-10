@@ -97,10 +97,63 @@
     </select>
   </div>
 
-<!--   <div class="form-group">
-    <label for="exampleTextarea">Example textarea</label>
-    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-  </div> -->
+
+
+
+
+
+<!---- FORMSPREE IO FORM -->
+ <div class="col-lg-12">
+  <div class="">
+                <form action="//formspree.io/clim@traderjoes.com" method="POST">
+                        <input name="_subject" value="New Hawaiian Shirt Order" type="hidden">
+                        <input name="_next" value="http://conradp04.github.io/tj-shirt-project/TJ-site/thank-you-pg.html" type="hidden">
+       
+
+            <!--END OF FORMSPREE -->
+
+
+
+
+
+<fieldset class="tagForm">
+     <legend>NAME TAG FOR NEW CREW </legend>
+        
+  <table border="0" cellspacing="0" cellpadding="4">
+      <tr>
+        <th>Shape</th>
+        <th>Quantity</th>
+        <th>Title</th>
+        <th>Name</th>
+        <th>Attachment</th>
+      </tr>
+      <tr>
+        <td>
+           <input type="text" class="" name="SHAPE: " placeholder="OVAL" value="OVAL" disabled="true">&nbsp
+        </td>
+        <td>
+          <input type="text" name="Quantity: " size="5" value="2" text="2" disabled> &nbsp
+        </td>
+        <td>
+           <input type="text" class="" name="TITLE: " value="CREW MEMBER" disabled="true">&nbsp
+        </td>
+        <td>
+          <input type="text" name="Printed Name: " size="30" placeholder=" Type name to be printed...">
+        </td>
+        <td>
+          <select name="Tag Type">
+            <option value="Pin">Pin</option>
+            <option value="Magnet">Magnet</option>
+          </select>
+        </td>
+      </tr>
+
+</table>
+</fieldset>
+
+
+
+
 
   <fieldset class="form-group">
     <legend>ITEMS YOU WILL ALSO RECEIVE </legend>
@@ -116,10 +169,19 @@
         LEATHER HOLSTERS
       </label>
     </div>
+
+
+
+
+
     <div class="namelbl">
     <label>Ordered By:</label>&nbsp<input type="text" class="" name="" placeholder=" Enter Full Name...">
     </div>
-  </fieldset>
+    <br><br>
+
+
+
+
 <div class=subBtn>
   <button type="submit" class="btn btn-danger">Submit</button>
 </div>
@@ -156,15 +218,19 @@ var yyyy = today.getFullYear();
 
 if (dd<10){
   dd='0'+dd
-  }
-
+}
 var today = monthNames[mm]+' '+dd+','+yyyy;
 console.log(today);
 document.getElementById("cDate").innerHTML = today;
 
 }
 currentDate();
+
 });
+
+
+
+
 </script>
  
 
