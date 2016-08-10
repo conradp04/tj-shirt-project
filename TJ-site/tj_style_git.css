@@ -331,7 +331,7 @@ h3
 }
 #radioStacked2
 {
-    margin-left:130px;
+    margin-left:128px;
 }
 
 
@@ -345,4 +345,16 @@ h3
 .cDate
 {
     margin-top:16px;
+}
+
+table {
+  background-color: #ffffff;
+}
+table th {
+  background-color: ;
+}
+.tagForm
+{
+    margin-top:30px;
+    margin-bottom:50px;
 }
