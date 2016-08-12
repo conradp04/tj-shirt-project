@@ -222,8 +222,8 @@ margin-left:-1px;
 .namelbl2
 {
     text-align: center;
-    margin-top:30px;
-    margin-bottom:10px;
+    margin-top:50px;
+    font-size:25px;    
 }
 .custom-controls-stacked
 {
@@ -267,8 +267,9 @@ input#radioStacked1_0
 .containment2
 {
    
-    height:650px;
+    height:720px;
     margin-bottom:55px;
+    border:2.5px dotted #f5310A;
 }
 .hibiscus img
 {   
@@ -284,6 +285,7 @@ input#radioStacked1_0
 .jumbo
 {
     font-size:50px;
+    margin-top:25px;
 }
 .checkbox label, .radio label
 {
@@ -386,4 +388,11 @@ table th {
 {
     background:#f1f0f0;
     border:none;
+}
+legend h3
+{
+    font-size:24px;
+    font-family:'Fredericka the great';
+    color:#464137;
+    letter-spacing: 2px;
 }
