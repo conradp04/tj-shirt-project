@@ -42,7 +42,7 @@ ul{
             }
 ul li{
             color:#000;
-            font-family: "Times new roman",'century gothic';
+            font-family: 'century gothic';
         }
 
 .form{
@@ -60,6 +60,7 @@ ul li{
 legend{
 
     margin-top:25px;
+    border-bottom:1px solid #dedede;
 }
 
 .cartControls{
@@ -199,7 +200,7 @@ input#name{
 }
 li 
 {
-    list-style-type: none;
+ list-style-type: none;
 }
 
 .thumbDetails{
@@ -215,8 +216,14 @@ margin-left:-1px;
 .namelbl
 {
     text-align: center;
-    margin-top:50px;
-    margin-bottom:20px;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+.namelbl2
+{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:10px;
 }
 .custom-controls-stacked
 {
@@ -256,6 +263,12 @@ input#radioStacked1_0
 {
     border:1px dashed #F5310A;
     margin-bottom:15px;
+}
+.containment2
+{
+   
+    height:650px;
+    margin-bottom:55px;
 }
 .hibiscus img
 {   
@@ -355,6 +368,22 @@ table th {
 }
 .tagForm
 {
-    margin-top:30px;
+    margin-top:15px;
     margin-bottom:50px;
+}
+
+.theader{
+    margin-left:50px;
+}
+.wareHouse{
+    margin-top:50px;
+}
+.items
+{
+    text-align: center;
+}
+.well
+{
+    background:#f1f0f0;
+    border:none;
 }
