@@ -267,7 +267,7 @@ input#radioStacked1_0
 .containment2
 {
    
-    height:720px;
+    height:760px;
     margin-bottom:55px;
     border:2.5px dotted #f5310A;
 }
@@ -360,6 +360,7 @@ h3
 .cDate
 {
     margin-top:16px;
+    text-align:right;
 }
 
 table {
@@ -379,6 +380,9 @@ table th {
 }
 .wareHouse{
     margin-top:50px;
+    display: block;
+    
+    
 }
 .items
 {
@@ -391,8 +395,24 @@ table th {
 }
 legend h3
 {
-    font-size:24px;
+    font-size:20px;
     font-family:'Fredericka the great';
     color:#464137;
     letter-spacing: 2px;
+}
+
+.wareHouseSub
+{
+
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+    padding-right:15px;
+    border:none;
+}
+input.wareHouseSub
+{
+    float:right;
+    display:block;
+    margin-top:-35px;
 }
