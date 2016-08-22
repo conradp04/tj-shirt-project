@@ -267,7 +267,7 @@ input#radioStacked1_0
 .containment2
 {
    
-    height:760px;
+    height:auto;
     margin-bottom:55px;
     border:2.5px dotted #f5310A;
 }
@@ -366,8 +366,22 @@ h3
 table {
   background-color: #ffffff;
 }
+.tbl2
+{
+    margin-top:15px;
+    background-color:#fafafa;
+    
+}
+.tbl2>tbody>tr>th{
+    border-top:none;
+}
 table th {
-  background-color: ;
+  color: #c81111;
+  text-align:center;
+}
+#thQ
+{
+    margin-left:15px;
 }
 .tagForm
 {
